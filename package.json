@@ -1,0 +1,25 @@
+{
+  "name": "2022-vpnwebfingerprintdemo",
+  "version": "1.0.0",
+  "description": "Testing claims that \"VPNs hide your identity from advertisers\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PotatoesMakeChips/2022-VPNWebFingerprintDemo.git"
+  },
+  "keywords": [
+    "testing",
+    "security",
+    "vpn"
+  ],
+  "author": "Daniel Clover",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/PotatoesMakeChips/2022-VPNWebFingerprintDemo/issues"
+  },
+  "homepage": "https://github.com/PotatoesMakeChips/2022-VPNWebFingerprintDemo#readme",
+  "dependencies": {}
+}
