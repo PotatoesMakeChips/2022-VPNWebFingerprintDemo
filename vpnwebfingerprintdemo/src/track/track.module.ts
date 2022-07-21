@@ -3,11 +3,11 @@ import { TrackController } from './track.controller';
 import { TrackService } from './track.service';
 
 import { MongooseModule } from '@nestjs/mongoose';
-import { UserSchema } from './user.model';
+import { User } from './user.model';
 
 @Module({
   imports: [
-    MongooseModule.forFeature([{ name: 'User', schema: UserSchema }]),
+    MongooseModule.forFeature([{ name: 'User', schema: User }]),
   ],
   controllers: [TrackController],
   providers: [TrackService]
